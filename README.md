@@ -1,2 +1,3 @@
-# crud_pdo
-crud_pdo
+# CRUD for LE 
+เอาไปไว้ใน xampp/htdocs
+
