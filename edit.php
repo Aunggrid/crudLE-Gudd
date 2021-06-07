@@ -281,7 +281,7 @@ if (isset($_REQUEST['btn_update'])) {
  </div>
  <div class="form-group">
  <div class="row">
-    <label for="preview" style="margin-left: -9.65%;" class="col control-label">เเสดงผล</label>
+    <label for="preview" style="margin-left: -9.65%;" class="col control-label"> เเสดงผล</label>
     <div class="col-sm-6">
          
         <select style="margin-left: -63%;" type='text' name="txt_preview"class="form-select" id="txt_preview">
