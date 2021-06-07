@@ -155,7 +155,7 @@ if (isset($_REQUEST['btn_update'])) {
 
  <form method="post" name='upform' class="form-horizontal mt-5"onsubmit="return validateForm()" >
  <div class="container">
- <div class="form-group text-center">
+ <div class="form-group text-left">
 
 <div class="row">
 <label for="mooc_id" class="col-sm-3 control-label">ID</label>
@@ -165,7 +165,7 @@ if (isset($_REQUEST['btn_update'])) {
 </div>
 
      
-            <div class="form-group text-center">
+            <div class="form-group text-left">
                 <div class="row">
                     <label for="mooc_name" class="col-sm-3 control-label">ชื่อคอร์ส</label>
                     <div class="col-sm-9">
@@ -173,7 +173,7 @@ if (isset($_REQUEST['btn_update'])) {
                     </div>
                 </div>
             
-                <div class="form-group">
+                <div class="form-group text-left">
  <div class="row">
     <label for="mooc_course_year" class="col-sm-3 control-label">ปี</label>
     <div class="col-sm-6">
@@ -188,7 +188,7 @@ if (isset($_REQUEST['btn_update'])) {
         </div>
         
  </div>
- <div class="form-group">
+ <div class="form-group ">
  <div class="row">
     <label for="mooc_images" class="col-sm-3 control-label">URL รูปภาพ</label>
     <div class="col-sm-6">
@@ -213,7 +213,7 @@ if (isset($_REQUEST['btn_update'])) {
             <div  class="form-group text-center ">
                 <div  class="payalingwtf">
             <div class="row">
-            <div class="Pay-text">ค่าใช้จ่าย</div>
+            <div style="margin-left: 10.5%;" class="Pay-text">ค่าใช้จ่าย</div>
  <div class="radioadjust1">
  <div class="form-check">
  
@@ -253,17 +253,25 @@ if (isset($_REQUEST['btn_update'])) {
              <div class="P_P">
             <div class="form-group">
  <div class="row ">
-    <label for="cs_project_mooc_id" class="col control-label">Project id</label>
+    <label for="cs_project_mooc_id" style="margin-left: -9.5%;" class="col control-label">Project id</label>
     <div class="col-sm-6">
         <input style="margin-left: -63%;" type='text' name="txt_project" class="form-control" value="<?php echo $cs_project_mooc_id; ?>" id="txt_project" maxlength="6">  </div>
  </div>
  <div class="form-group">
  <div class="row">
-    <label for="cs_project_confirm" class="col control-label">การอนุมัติ</label>
+    <label for="cs_project_confirm" style="margin-left: -9.65%;" class="col control-label">การอนุมัติ</label>
     <div class="col-sm-6">
          
         <select style="margin-left: -63%;" type='text' name="txt_confirm"class="form-select" value="<?php echo $cs_project_mooc_id; ?>" id="txt_confirm">
-        <option value="<?php echo $cs_project_confirm; ?>">ค่าเดิม(<?php echo $cs_project_confirm; ?>)</option>
+        <option value="<?php echo $cs_project_confirm; ?>"><?php 
+        if($cs_project_confirm=0){
+            $confirmmm ='ไม่ต้องอนุมัติ';
+        
+         }else $confirmmm ='อนุมัติ';
+         
+         
+        
+        echo $confirmmm; ?></option>
         <option value="0">ไม่ต้องอนุมัติ(0)</option>
   <option value="1">อนุมัติ(1)</option>
  
@@ -273,11 +281,17 @@ if (isset($_REQUEST['btn_update'])) {
  </div>
  <div class="form-group">
  <div class="row">
-    <label for="preview" class="col control-label">เเสดงผล</label>
+    <label for="preview" style="margin-left: -9.65%;" class="col control-label"> เเสดงผล</label>
     <div class="col-sm-6">
          
         <select style="margin-left: -63%;" type='text' name="txt_preview"class="form-select" id="txt_preview">
- <option value="<?php echo $preview; ?>">ค่าเดิม(<?php echo $preview; ?>) </option>
+ <option value="<?php echo $preview; ?>"><?php 
+ if($preview=0){
+    $previeww ='ไม่ต้องแสดง';
+
+ }else $previeww ='ไม่ต้องแสดง';
+ 
+ echo $previeww; ?> </option>
   <option value="0">ไม่ต้องแสดง(0)</option>
   <option value="1">แสดง(1)</option>
  
@@ -290,7 +304,7 @@ if (isset($_REQUEST['btn_update'])) {
             </div>
 
 
-            <div class="form-group text-center">
+            <div class="form-group text-left">
                 <div class="col-md-12 mt-3">
                     <input type="submit" name="btn_update" class="btn btn-success" value="Update">
                     <a href="index.php" class="btn btn-danger">Cancel</a>
