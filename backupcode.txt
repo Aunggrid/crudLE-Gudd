@@ -1,0 +1,46 @@
+ <button type="button" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#ADDCourse">
+  ADD(+)</button>
+  
+
+
+
+
+$insertMsg="Insert SuccessFully";
+                echo "<script>parent.window.location.reload();</script>";
+////////////
+
+
+(() => {
+
+
+function validateLength(elem,min,max){
+    const val = elem.value;
+    console.log('kuay');
+}
+
+function validateForm(event){
+ event.preventDefault();
+ const payElem = document.getElementById('tpay');
+ const orderElem = document.getElementById('torder');
+
+ validateLength(payElem,10,20);
+
+}
+
+function run(){
+    const formElem = document.querySelector('form');
+    formElem.addEventListener('submit',validateForm);
+}
+
+
+
+
+
+run();
+})();
+
+
+/////////////////////
+$delete_stmt = $db->prepare('DELETE FROM tb_mooc WHERE mooc_id = :id');
+    $delete_stmt->bindParam(':id', $id);
+    $delete_stmt->execute();

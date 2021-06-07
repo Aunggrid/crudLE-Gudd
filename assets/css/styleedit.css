@@ -1,0 +1,42 @@
+.cscontrol{
+    
+    display: flex;
+    margin-left: 15%;
+}
+.payalingwtf{
+   margin-left: -12%;
+}
+.Pay-text{
+    display: flex;
+    
+    text-align: start;
+    margin-left:18%
+}
+.paiddetail{
+    
+    display:none;
+    margin-left:25%;
+    height:100%;
+    width:100%;
+    text-align: start;
+}
+.radioadjust1{
+    display: flex;
+    
+    margin-left: 35%;
+}
+.cscontrol{
+    display: flex;
+}
+.P_P{
+    
+    margin-left: -8%;
+    width:100% ;
+    
+    text-align: start;
+    
+}
+.previewpic{
+    display: flex;
+    margin-left: 50%;
+}

@@ -1,0 +1,177 @@
+html, body { 
+    min-height: 100%;
+    
+    
+}
+
+
+
+
+body{
+    overflow-x: hidden;
+    margin: 0px;
+   min-height: 100%;
+   width: 100%;
+    background-color:white;
+    
+    
+}
+.logotop{
+    margin-left: -50px;
+  
+  
+  }  
+  
+  .toprightmenu{
+ 
+    width: 1000px;
+    margin-right: 10px;
+    
+    }
+.Proftext{
+color: rgb(255, 250, 250);
+margin-top: 50px;
+        
+}
+.navheadcontroll{
+    padding-left: 350px;
+    margin-top: 10px;
+    height: 50px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.paddinghome{
+width: 150px;
+border-left: solid gray 2px;
+margin-right: 0px;
+border-right: solid gray 2px ;
+margin-left: 30px;
+
+}
+.paddinghome2{
+width: 170px;
+padding-left: 7px ;
+margin-right: 14px;
+border-right: solid gray 2px ;
+
+}
+.paddinghome3{
+width: 130px;
+padding-left: 0px ;
+padding-right: 17px ;
+margin-right: 20px;
+border-right: solid gray 2px ;
+
+}
+.round-bule{
+    background-color: rgb(24, 24, 145);
+    width: 5.5cm;
+    height: 5.5cm;
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.round-orange{
+    background-color: rgb(209, 106, 22);
+    width: 5.5cm;
+    height: 5.5cm;
+    border-radius: 50%;
+    margin-right: 400px;
+    margin-top: 30px;
+}
+.text-in-blue{
+    margin-left: 200px;
+    width: 10cm;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.text-in-orange{
+    width: 10cm;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.textovercourse{
+    margin-left: 88px;
+}
+.cardbtn{
+    width: 38px;
+    margin-top: -35px;
+    font-size: 20px;
+    border-radius: 50%;
+    
+}
+.cardbody{
+border-bottom: 2px solid black ;
+}
+.navboxcontrol2{
+    margin-top: -50px;
+    
+   
+    
+    
+    }
+.lotsofcourse2{
+    margin-top: -50px;
+}
+.black-footer{
+    width: 1620px;
+    height: 15cm;
+    background-color: black;
+    margin-left: -150px;
+    
+    margin-top: -10px;
+    
+    
+}
+.smallfootcontrol{
+    width: 20cm;
+    height: 15cm ;
+    color: blanchedalmond;
+    margin-left: 20px;
+    margin-top: 200px;
+    
+  }
+.footsmallalign1{
+    margin-top: 5px;
+}
+.footsmallalign2{
+    margin-left: -50px;
+    margin-top: 5px;
+    
+}
+.footsmallalign3{
+    margin-left: -100px;
+    width: 140px;
+    margin-top: 5px;
+}
+.rightfootcontrol{
+    
+    width: 20cm;
+    height: 18x;
+    margin-top: -560px;
+    text-align: right;
+    margin-left: 800px;
+    color: blanchedalmond;
+    
+    
+}
+.footicon{
+    
+    width: 50px;
+    margin-left: 430px;
+    text-align: center;
+    
+}
+.aligniconsc{
+
+}
+.footercopyright{
+text-align: center;
+color: blanchedalmond;
+
+border-top: 2px solid gray;
+margin-top: 350px;
+
+
+}

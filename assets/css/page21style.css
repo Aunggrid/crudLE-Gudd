@@ -1,0 +1,282 @@
+html, body { 
+    min-height: 100%;
+    
+    
+}
+
+
+
+
+body{
+    overflow-x: hidden;
+    margin: 0px;
+   min-height: 100%;
+   width: 100%;
+    background-color:white;
+    
+    
+}
+html{
+    
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+.logotop{
+    margin-left: -50px;
+  
+  
+  }  
+  
+  .toprightmenu{
+ 
+    width: 1000px;
+    margin-right: 10px;
+    
+    }
+
+.Proftext{
+        color: rgb(255, 250, 250);
+      margin-top: 50px;
+        
+    }
+
+.navheadcontroll{
+        padding-left: 350px;
+        margin-top: 10px;
+        height: 50px;
+        
+        justify-content: center;
+        align-items: center;
+}
+.paddinghome{
+    width: 150px;
+    border-left: solid gray 2px;
+    margin-right: 0px;
+    border-right: solid gray 2px ;
+    margin-left: 30px;
+    
+}
+.paddinghome2{
+    width: 170px;
+    padding-left: 7px ;
+    margin-right: 14px;
+    border-right: solid gray 2px ;
+    
+}
+.paddinghome3{
+    width: 130px;
+    padding-left: 0px ;
+    padding-right: 17px ;
+    margin-right: 20px;
+    border-right: solid gray 2px ;
+    
+}
+.wordbelowmenu{
+    margin-left: 50px;
+}
+.resilencebox{
+    margin-top: 50px;
+    border-style: groove;
+    border-radius: 20px;
+    box-shadow: 5px 10px 25px;
+    width: 13cm;
+}
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+.smtextresilence{
+    
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btnundersm{
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.lotlogo{
+   
+    width: 70% ;
+    margin-top: 50px;
+}
+.slideshow{
+    margin-top: 50px;
+    
+    width: 6.5cm;
+    height: 6.3cm;
+}
+.carousel-control-prev{
+    margin-left: -40px;
+    margin-top: 3.25cm;
+    height: 35px ;
+    background-color: rgba(128, 128, 128, 0.411);
+    border-radius: 20px;
+}
+.carousel-control-next{
+    margin-right: -40px;
+    margin-top: 3.25cm;
+
+    height: 35px ;
+    background-color: rgba(128, 128, 128, 0.411);
+    border-radius: 20px;
+}
+.textupcourse{
+margin-top: 100px;
+}
+.cardbtn{
+    width: 38px;
+    margin-top: -35px;
+    font-size: 20px;
+    border-radius: 50%;
+    
+}
+.cardbody{
+border-bottom: 2px solid black ;
+
+
+
+}
+.LLA{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+.LLA-pic1{
+    
+}
+.LLA-textbox-1{
+margin-top: -150px;
+margin-left: 190px;
+
+box-shadow: 5px 5px 20px;
+}
+.LLA-textbox-2{
+    margin-top: 25px;
+    width: 8.5cm;
+    box-shadow: 2px 5px 20px;
+}
+.LLA-pic2{
+    margin-top: 25px;
+    margin-left: 190px;
+
+}
+.LLA-textbox-3{
+    margin-top: 25px;
+}
+.LLA-pic4{
+    margin-top: 25px;
+}
+.btnunderLLA{
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.bigpicleab2{
+     
+    margin-left: -30px;
+    
+}
+.overcontrolABLEbot2{
+    box-sizing: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -590px;
+    width: 1590px;
+    margin-top: 10px;
+    
+}
+.imggbtn2{
+    margin-left: 750px;
+    width: 1800px;
+    height: 500px;
+    margin-top: 150px;
+    
+  
+}
+.texonbigpic2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -400px;
+    text-align: center;
+    flex-direction: column;
+    width: 1000px;
+    margin-left:130px;
+    
+}
+.btm2{
+    margin-top: 30px;
+    margin-left: 600px;
+    
+    
+}
+.black-footer{
+    width: 1620px;
+    height: 15cm;
+    background-color: black;
+    margin-left: -150px;
+    
+    margin-top: -10px;
+    
+    
+}
+.smallfootcontrol{
+    width: 20cm;
+    height: 15cm ;
+    color: blanchedalmond;
+    margin-left: 20px;
+    margin-top: 200px;
+    
+  }
+.footsmallalign1{
+    margin-top: 5px;
+}
+.footsmallalign2{
+    margin-left: -50px;
+    margin-top: 5px;
+    
+}
+.footsmallalign3{
+    margin-left: -100px;
+    width: 140px;
+    margin-top: 5px;
+}
+.rightfootcontrol{
+    
+    width: 20cm;
+    height: 18x;
+    margin-top: -560px;
+    text-align: right;
+    margin-left: 800px;
+    color: blanchedalmond;
+    
+    
+}
+.footicon{
+    
+    width: 50px;
+    margin-left: 430px;
+    text-align: center;
+    
+}
+.aligniconsc{
+
+}
+.footercopyright{
+text-align: center;
+color: blanchedalmond;
+
+border-top: 2px solid gray;
+margin-top: 350px;
+
+
+}
