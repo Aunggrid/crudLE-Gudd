@@ -139,23 +139,23 @@ if (empty($mooc_id)){
  <?php } ?>
 
  <form id='form' name='addform' onsubmit="return validateForm()" metod="post" class="form-label">
-     <div class="form-group text-center">
+     <div class="form-group text-left">
 
          <div class="row">
-    <label for="mooc_id" class="col control-label">ID</label>
+    <label style="margin-left: 20.15%;" for="mooc_id" class="col control-label">ID</label>
     <div class="col-sm-6">
         <input type='text'  name="txt_id" class="form-control" placeholder="Enter Id....">
     </div>
  </div>
  <div class="form-group">
  <div class="row">
-    <label for="mooc_name" class="col control-label">ชื่อคอร์ส</label>
+    <label style="margin-left: 20%;" for="mooc_name" class="col control-label">ชื่อคอร์ส</label>
     <div class="col-sm-6">
         <input type='text' name="txt_name" class="form-control" placeholder="Enter Name....">   </div>
  </div>
  <div class="form-group">
  <div class="row">
-    <label for="mooc_course_year" class="col control-label">ปี</label>
+    <label style="margin-left: 20.15%;" for="mooc_course_year" class="col control-label">ปี</label>
     <div class="col-sm-6">
          
         <select type='text' name="txt_year"class="form-select">
@@ -169,7 +169,7 @@ if (empty($mooc_id)){
         
  </div>
  
- <div class="Pay-text">ค่าใช้จ่าย :</div>
+ <div style="margin-left: 20.5%;" class="Pay-text">ค่าใช้จ่าย</div>
  <div class="radioadjust1">
  <div class="form-check">
  
@@ -202,23 +202,23 @@ if (empty($mooc_id)){
 </div></div></div>
  <div class="form-group">
  <div class="row">
-    <label for="mooc_images" class="col control-label">URL รูปภาพ</label>
+    <label for="mooc_images" style="margin-left: 20%;" class="col control-label">URL รูปภาพ</label>
     <div class="col-sm-6">
         <input type='text' name="txt_images" class="form-control" placeholder="Enter Image Link...."  id="txt_images">   </div>
  </div>
 
  <div class="form-group">
  <div class="row">
-    <label for="cs_project_mooc_id" class="col control-label">Project mooc id</label>
+    <label for="cs_project_mooc_id" style="margin-left: 20%;" class="col control-label">Project mooc id</label>
     <div class="col-sm-6">
-        <input type='text' name="txt_project_mooc_id" class="form-control" placeholder="Enter Project mooc ID...." id="txt_project_mooc_id" maxlength="6">  </div>
+        <input style="margin-top: 1%;" type='text' name="txt_project_mooc_id" class="form-control" placeholder="Enter Project mooc ID...." id="txt_project_mooc_id" maxlength="6">  </div>
  </div>
  <div class="form-group">
  <div class="row">
-    <label for="cs_project_confirm" class="col control-label">สถานะการอนุมัติ</label>
+    <label style="margin-left: 19.75%;"for="cs_project_confirm" class="col control-label">สถานะการอนุมัติ</label>
     <div class="col-sm-6">
          
-        <select type='text' name="txt_project_confirm"class="form-select" id="txt_project_confirm">
+        <select style="margin-top: 1%;" type='text' name="txt_project_confirm"class="form-select" id="txt_project_confirm">
   <option value="0">ไม่ต้องอนุมัติ</option>
   <option value="1">อนุมัติ</option>
  
@@ -228,7 +228,7 @@ if (empty($mooc_id)){
  </div>
  <div class="form-group">
  <div class="row">
-    <label for="preview" class="col control-label">การเเสดงผล</label>
+    <label for="preview" style="margin-left: 19.75%;" class="col control-label">การเเสดงผล</label>
     <div class="col-sm-6">
          
         <select type='text' name="txt_preview"class="form-select" id="txt_preview" id="txt_preview">
