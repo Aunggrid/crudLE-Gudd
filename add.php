@@ -189,13 +189,13 @@ if (empty($mooc_id)){
 <div id="paiddetail" style="display:none">
 <div class="form-group">
  <div class="row">
-    <label for="mooc_course_price" class="col control-label">ราคาคอร์ส</label>
+    <label  style="margin-left: 20.5%;" for="mooc_course_price" class="col control-label">ราคาคอร์ส</label>
     <div class="col-sm-6">
         <input type='text' name="txt_course_price" class="form-control" placeholder="Enter Price...."id="txt_course_price">  </div>
  </div>
  <div class="form-group">
  <div class="row">
-    <label for="mooc_course_discount" class="col control-label">ส่วนลด</label>
+    <label style="margin-left: 20.5%;" for="mooc_course_discount" class="col control-label">ส่วนลด</label>
     <div class="col-sm-6">
         <input type='text' name="txt_course_discount" class="form-control" placeholder="Enter Discount...."id="txt_course_discount">  </div>
  </div>
